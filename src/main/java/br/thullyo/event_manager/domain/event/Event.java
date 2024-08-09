@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Table(name = "tb_event")
@@ -27,7 +26,7 @@ public class Event {
 
     private String description;
 
-    private LocalDateTime data;
+    private LocalDate data;
 
     private Boolean remote;
 
